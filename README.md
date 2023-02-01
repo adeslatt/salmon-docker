@@ -26,7 +26,7 @@ PWD=$(pwd)
 
 Then mount and use your current directory and call the tool now encapsulated within the environment.
 ```bash
-docker run -it -v $PWD:$PWD -w $PWD salmon RNASeq-MATS.py -h
+docker run -it -v $PWD:$PWD -w $PWD salmon salmon -v
 ```
 
 ## (Optional) Deposit your container in the your [CAVATICA](cavatica.sbgenomics.com)  Docker Registry
