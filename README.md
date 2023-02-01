@@ -1,3 +1,5 @@
+[![Docker Image CI](https://github.com/adeslatt/salmon-docker/actions/workflows/docker-image.yml/badge.svg)](https://github.com/adeslatt/salmon-docker/actions/workflows/docker-image.yml)
+
 # salmon-docker v1.9
 
 Build the latest version Container for salmon from bioconda for subsequent use in workflows.
